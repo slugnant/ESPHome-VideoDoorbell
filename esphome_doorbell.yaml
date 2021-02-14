@@ -4,11 +4,11 @@ esphome:
   board: esp-wrover-kit
 
 wifi:
-  ssid: !secret wifi_not_ssid
-  password: !secret wifi_not_pwd
+  ssid: GoCubbies
+  password: Shutthefuckupplease
   manual_ip:
     static_ip: 192.168.3.24
-    gateway: 192.168.3.1
+    gateway: 192.168.1.1
     subnet: 255.255.255.0
 
 
@@ -120,9 +120,9 @@ display:
 	# Name page
       - id: name_page
         lambda: |-
-          it.print(34, 0, id(tnr1), "Peter");
-          it.print(29, 20, id(tnr1), "Marcus");
-          it.print(8, 43, id(tnr1), "Havard Olai");
+          it.print(34, 0, id(tnr1), "Penis");
+          it.print(29, 20, id(tnr1), "Slurper");
+          it.print(8, 43, id(tnr1), "Fuckit");
 	# Ding Dong page
       - id: ding_page
         lambda: |-
